@@ -72,3 +72,5 @@ Educational courses and intensive courses of such educational platforms as: Intu
 
 ### Languages
 Russian, English (basic, reading level of technical documentation)
+
+> I can - I will do, I can not - I will learn!
