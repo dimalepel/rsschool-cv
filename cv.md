@@ -69,3 +69,6 @@ and more projects on [my site](http://webcompby.ru/portfolio/).
 Polotsk State University, Faculty of Information Technologies, 2018 - present.
 
 Educational courses and intensive courses of such educational platforms as: Intuit, GeekBrains, Coursera, HTML Academy, Go Academy, etc.
+
+### Languages
+Russian, English (basic, reading level of technical documentation)
