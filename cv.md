@@ -64,3 +64,8 @@ Methodologies:
 *	[Nowadays Electricity - Maintenance of electrical equipment](https://nwdelectricity.ru/) (HTML, SCSS, Gulp, jQuery)
 
 and more projects on [my site](http://webcompby.ru/portfolio/).
+
+### Education
+Polotsk State University, Faculty of Information Technologies, 2018 - present.
+
+Educational courses and intensive courses of such educational platforms as: Intuit, GeekBrains, Coursera, HTML Academy, Go Academy, etc.
