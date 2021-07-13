@@ -41,7 +41,7 @@ Developer Tools:
 * WebStorm
 * PhpStorm
 * Atom
-* XAMPP/OpenServer
+* MAMP/OpenServer
 * Photoshop
 * Figma
 * Git/Github
