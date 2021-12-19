@@ -10,6 +10,7 @@
 * Skype: webcompby
 * Github login: dimalepel and [profile](https://github.com/dimalepel)
 * Telegram: @Dzm_Vashkevich and [chat with me](https://t.me/Dzm_Vashkevich)
+* Discord: Dzmitry Vashkevich (dimalepel)
 
 ### Summary
 I have been developing websites since 2012. Adaptive layout of layouts according to modern standards. Integration of layout on a content management system (CMS). Programming non-standard interface logic, testing and debugging the project code. I have basic knowledge of SEO optimization. He worked on projects for domestic and foreign customers. One of my projects became a laureate of the "Tibo-2017" Internet Prize and took 3rd place in the Health and Medicine nomination.
@@ -63,3 +64,13 @@ Methodologies:
 * [Tvoy Brunch](https://tvoybrunch.by/) (HTML, SCSS, Gulp, jQuery, Wordpress, Woocommerce)
 *	[Inoxprime](https://inoxprime.by/) (HTML, SCSS, Gulp, jQuery, Wordpress, Woocommerce)
 *	[Nowadays Electricity - Maintenance of electrical equipment](https://nwdelectricity.ru/) (HTML, SCSS, Gulp, jQuery)
+
+### Education
+Polotsk State University, Faculty of Information Technologies, 2018 - present.
+
+Educational courses and intensive courses of such educational platforms as: Intuit, GeekBrains, Coursera, HTML Academy, Go Academy, etc.
+
+### Languages
+Russian, English (basic, reading level of technical documentation)
+
+> I can - I will do, I can not - I will learn!
