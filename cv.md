@@ -27,3 +27,31 @@ Programming languages and technologies:
 * Pug
 * Gulp
 * C/C++
+
+CMS (Content Management systems):
+* WordPress + Woocommerce
+* Joomla + Virtuemart
+* OpenCart
+
+Frameworks and libraries:
+* Bootstrap
+* jQuery/Ajax
+
+Developer Tools:
+* WebStorm
+* PhpStorm
+* VSCode
+* MAMP/OpenServer
+* Photoshop
+* Figma
+* Git/Github
+* Travis CI
+
+Time and task management:
+* Waka time
+* Trello
+* Jira
+
+Methodologies:
+* BEM
+* Mobile first
