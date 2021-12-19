@@ -55,3 +55,11 @@ Time and task management:
 Methodologies:
 * BEM
 * Mobile first
+
+### Recent projects (for the first half of 2021):
+* [Amoreya - Hair extensions](https://amoreya.ru/) (HTML, SCSS, Gulp, jQuery)
+*	[Bits Medical](https://www.bits-medical.de/) (HTML, SCSS, Gulp, jQuery, Wordpress)
+*	[Time9 - Watchmaking workshop](https://time9.ru/) (HTML, SCSS, Gulp, jQuery)
+* [Tvoy Brunch](https://tvoybrunch.by/) (HTML, SCSS, Gulp, jQuery, Wordpress, Woocommerce)
+*	[Inoxprime](https://inoxprime.by/) (HTML, SCSS, Gulp, jQuery, Wordpress, Woocommerce)
+*	[Nowadays Electricity - Maintenance of electrical equipment](https://nwdelectricity.ru/) (HTML, SCSS, Gulp, jQuery)
