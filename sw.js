@@ -1,25 +1,29 @@
-const staticCacheName = 'site-static-v1';
+const staticCacheName = 'site-static-v3';
 const assetsUrl = [
-  '/',
   '/index.html',
   '/styles/styles.min.css',
+  '/scripts/highlight.min.js',
   '/scripts/scripts.js'
 ];
 
 // Event install
-self.addEventListener('install', async function () {
+self.addEventListener('install', async event => {
   const cache = await caches.open(staticCacheName);
   await cache.addAll(assetsUrl);
 });
 
 // Event activate
-self.addEventListener('activate', async function (event) {
-  console.log('[SW]: activate');
+self.addEventListener('activate', async event => {
+  const cacheNames = await caches.keys();
+  await Promise.all(
+    cacheNames
+      .filter(name => name !== staticCacheName)
+      .map(name => caches.delete(name))
+  );
 });
 
 // Event fetch
-self.addEventListener('fetch', async function (event) {
-  console.log('Fetch', event.request);
+self.addEventListener('fetch', event => {
   event.respondWith(cacheFirst(event.request));
 });
 
