@@ -1,0 +1,26 @@
+{
+  "name": "CV D.Vashkevich",
+  "short_name": "CV D.V",
+  "description": "Developer's CV and completed works",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#14ba9c",
+  "background_color": "#ffffff",
+  "prefer_related_applications": true,
+  "icons": [
+        {
+          "src": "favicon/192.png",
+          "type": "image/png",
+          "sizes": "192x192",
+          "purpose": "any maskable"
+        },
+        {
+          "src": "favicon/512.png",
+          "type": "image/png",
+          "sizes": "512x512",
+          "purpose": "any maskable"
+        }
+    ]
+}
