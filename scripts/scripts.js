@@ -111,3 +111,6 @@ navigationLinks.forEach(function (link) {
   });
 });
 
+// Highlight code
+hljs.highlightAll();
+

@@ -52,6 +52,9 @@
             <a class="main-navigation__link" href="#recent-projects">Recent projects</a>
           </li>
           <li class="main-navigation__item">
+            <a class="main-navigation__link" href="#code-examples">Code example</a>
+          </li>
+          <li class="main-navigation__item">
             <a class="main-navigation__link" href="#contacts">Contacts</a>
           </li>
         </ul>
@@ -124,7 +127,7 @@
             </span>
             <h3 class="skill__title">Developer Tools:</h3>
             <ul class="custom-list">
-              <li class="custom-list__item">WebStorm/PhpStorm/Atom</li>
+              <li class="custom-list__item">WebStorm/PhpStorm/VSCode</li>
               <li class="custom-list__item">MAMP/OpenServer</li>
               <li class="custom-list__item">Photoshop/Figma</li>
               <li class="custom-list__item">Git/Github</li>
@@ -163,6 +166,46 @@
             </ul>
           </li>
         </ul>
+      </div>
+    </section>
+
+    <section class="code-examples" id="code-examples">
+      <div class="container">
+        <h2 class="code-examples__title section-title">Code example</h2>
+        <pre class="code-examples__code-wrapper">
+          <code class="hljs language-javascript">
+const board = document.querySelector('#board');
+const colors = ['#ff0000', '#bf3030', '#a60000', '#ff4040', '#ff7373'];
+const SQUARES_NUMBER = 500;
+
+for (let i = 0; i < SQUARES_NUMBER; i++) {
+  const square = document.createElement('div');
+  square.classList.add('square');
+
+  square.addEventListener('mouseover', () => setColor(square));
+
+  square.addEventListener('mouseleave', () => removeColor(square));
+
+  board.append(square);
+}
+
+function setColor(element) {
+  const color = getRandomColor();
+  element.style.backgroundColor = color;
+  element.style.boxShadow = `0 0 2px ${color}, 0 0 10px ${color}`;
+}
+
+function removeColor(element) {
+  element.style.backgroundColor = '#1d1d1d';
+  element.style.boxShadow = '0 0 2px #000000';
+}
+
+function getRandomColor() {
+  const index = Math.floor(Math.random() * colors.length);
+  return colors[index];
+}
+          </code>
+        </pre>
       </div>
     </section>
 
@@ -334,6 +377,7 @@
     </section>
   </footer>
 
+  <script src="scripts/highlight.min.js"></script>
   <script src="scripts/scripts.js"></script>
 </body>
 </html>
