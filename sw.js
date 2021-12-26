@@ -1,9 +1,9 @@
 const staticCacheName = 'site-static-v4';
 const assetsUrl = [
-  '/index.html',
-  '/styles/styles.min.css',
-  '/scripts/highlight.min.js',
-  '/scripts/scripts.js'
+  './index.html',
+  './styles/styles.min.css',
+  './scripts/highlight.min.js',
+  './scripts/scripts.js'
 ];
 
 // Event install
