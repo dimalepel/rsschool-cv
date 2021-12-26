@@ -1,4 +1,4 @@
-const staticCacheName = 'site-static-v3';
+const staticCacheName = 'site-static-v4';
 const assetsUrl = [
   '/index.html',
   '/styles/styles.min.css',
